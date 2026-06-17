@@ -1,0 +1,42 @@
+/* App.css */
+body {
+  margin: 0;
+  background-image: url('./assets/bg.jpg'); /* Ensure path is correct */
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Courier New', monospace;
+  color: #fff;
+}
+
+.app-container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.7); /* Dark semi-transparent layer for readability */
+  border: 3px solid #8a2be2;
+  text-align: center;
+}
+
+.glass-logo {
+  width: 150px;
+  margin-bottom: 1rem;
+  filter: drop-shadow(0 0 10px #ccff00);
+}
+
+.prompt-input {
+  width: 90%;
+  padding: 1rem;
+  background: #111;
+  border: 2px solid #ccff00;
+  color: #ccff00;
+}
+
+button {
+  margin-top: 1rem;
+  background-color: #ccff00;
+  color: black;
+  border: none;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
